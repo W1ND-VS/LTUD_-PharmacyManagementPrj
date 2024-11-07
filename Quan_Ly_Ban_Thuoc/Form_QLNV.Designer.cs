@@ -31,7 +31,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.Medical_Btn = new System.Windows.Forms.Button();
             this.NV_Btn = new System.Windows.Forms.Button();
             this.qL_NhanVien1 = new Quan_Ly_Ban_Thuoc.UserCtrl.QL_NhanVien();
             this.medicalFormcs1 = new Quan_Ly_Ban_Thuoc.UserCtrl.MedicalFormcs();
@@ -43,7 +43,7 @@
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(81)))), ((int)(((byte)(162)))));
             this.panel1.Controls.Add(this.button4);
             this.panel1.Controls.Add(this.button3);
-            this.panel1.Controls.Add(this.button2);
+            this.panel1.Controls.Add(this.Medical_Btn);
             this.panel1.Controls.Add(this.NV_Btn);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -79,19 +79,20 @@
             this.button3.Text = "Khách hàng";
             this.button3.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // Medical_Btn
             // 
-            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button2.FlatAppearance.BorderSize = 2;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(-1, 138);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(255, 47);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Thuốc";
-            this.button2.UseVisualStyleBackColor = true;
+            this.Medical_Btn.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.Medical_Btn.FlatAppearance.BorderSize = 2;
+            this.Medical_Btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Medical_Btn.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Medical_Btn.ForeColor = System.Drawing.Color.White;
+            this.Medical_Btn.Location = new System.Drawing.Point(-1, 138);
+            this.Medical_Btn.Name = "Medical_Btn";
+            this.Medical_Btn.Size = new System.Drawing.Size(255, 47);
+            this.Medical_Btn.TabIndex = 1;
+            this.Medical_Btn.Text = "Thuốc";
+            this.Medical_Btn.UseVisualStyleBackColor = true;
+            this.Medical_Btn.Click += new System.EventHandler(this.Medical_Btn_Click);
             // 
             // NV_Btn
             // 
@@ -120,6 +121,7 @@
             // 
             // medicalFormcs1
             // 
+            this.medicalFormcs1.BackColor = System.Drawing.SystemColors.Control;
             this.medicalFormcs1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.medicalFormcs1.Location = new System.Drawing.Point(254, 0);
             this.medicalFormcs1.Name = "medicalFormcs1";
@@ -149,7 +151,7 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button NV_Btn;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button Medical_Btn;
         private System.Windows.Forms.Button button4;
         private UserCtrl.QL_NhanVien qL_NhanVien1;
         private UserCtrl.MedicalFormcs medicalFormcs1;

@@ -43,5 +43,15 @@ namespace Quan_Ly_Ban_Thuoc.UserCtrl
         {
 
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Add__Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

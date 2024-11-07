@@ -59,15 +59,5 @@ namespace Quan_Ly_Ban_Thuoc.Properties {
                 resourceCulture = value;
             }
         }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap pngtree_medical_drug_advertising_background_image_134986 {
-            get {
-                object obj = ResourceManager.GetObject("pngtree-medical-drug-advertising-background-image_134986", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
     }
 }

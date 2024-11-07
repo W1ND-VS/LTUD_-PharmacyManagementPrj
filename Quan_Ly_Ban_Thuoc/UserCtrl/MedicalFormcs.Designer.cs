@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
             this.roundedTextbox1 = new Quan_Ly_Ban_Thuoc.UserCtrl_Custom.RoundedTextbox();
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
@@ -39,20 +39,23 @@
             this.Column_Name1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column_sl = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column_ll = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.roundedTextbox2 = new Quan_Ly_Ban_Thuoc.UserCtrl_Custom.RoundedTextbox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.Add_ = new Quan_Ly_Ban_Thuoc.UserCtrl_Custom.RoundedButton();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.roundedTextbox3 = new Quan_Ly_Ban_Thuoc.UserCtrl_Custom.RoundedTextbox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.Add_ = new Quan_Ly_Ban_Thuoc.UserCtrl_Custom.RoundedButton();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.roundedTextbox2 = new Quan_Ly_Ban_Thuoc.UserCtrl_Custom.RoundedTextbox();
+            this.roundedButton1 = new Quan_Ly_Ban_Thuoc.UserCtrl_Custom.RoundedButton();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // roundedTextbox1
@@ -91,14 +94,14 @@
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.Control;
             this.dataGridView1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
             this.dataGridView1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(81)))), ((int)(((byte)(162)))));
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(81)))), ((int)(((byte)(162)))));
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(81)))), ((int)(((byte)(162)))));
+            dataGridViewCellStyle11.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle11.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(81)))), ((int)(((byte)(162)))));
+            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle11;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column_Name,
@@ -130,14 +133,14 @@
             this.dataGridView2.BackgroundColor = System.Drawing.SystemColors.Control;
             this.dataGridView2.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
             this.dataGridView2.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(81)))), ((int)(((byte)(162)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(81)))), ((int)(((byte)(162)))));
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(81)))), ((int)(((byte)(162)))));
+            dataGridViewCellStyle12.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(81)))), ((int)(((byte)(162)))));
+            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle12;
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column_Name1,
@@ -170,78 +173,48 @@
             this.Column_ll.MinimumWidth = 6;
             this.Column_ll.Name = "Column_ll";
             // 
-            // roundedTextbox2
+            // groupBox1
             // 
-            this.roundedTextbox2.BackColor = System.Drawing.SystemColors.Window;
-            this.roundedTextbox2.BorderColor1 = System.Drawing.Color.MediumSlateBlue;
-            this.roundedTextbox2.BorderSize1 = 1;
-            this.roundedTextbox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.roundedTextbox2.ForeColor = System.Drawing.Color.DimGray;
-            this.roundedTextbox2.IsPlaceholder = false;
-            this.roundedTextbox2.Location = new System.Drawing.Point(110, 357);
-            this.roundedTextbox2.Multiline = false;
-            this.roundedTextbox2.Name = "roundedTextbox2";
-            this.roundedTextbox2.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
-            this.roundedTextbox2.PasswordChar = false;
-            this.roundedTextbox2.PlaceholderColor1 = System.Drawing.Color.White;
-            this.roundedTextbox2.PlaceholderText1 = "";
-            this.roundedTextbox2.Size = new System.Drawing.Size(182, 33);
-            this.roundedTextbox2.TabIndex = 6;
-            this.roundedTextbox2.Texts = "";
-            this.roundedTextbox2.UnderLineStyle1 = true;
+            this.groupBox1.Controls.Add(this.textBox5);
+            this.groupBox1.Controls.Add(this.textBox4);
+            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.Add_);
+            this.groupBox1.Controls.Add(this.label7);
+            this.groupBox1.Controls.Add(this.label6);
+            this.groupBox1.Controls.Add(this.label5);
+            this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.roundedTextbox3);
+            this.groupBox1.Controls.Add(this.roundedTextbox2);
+            this.groupBox1.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Location = new System.Drawing.Point(3, 357);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(898, 166);
+            this.groupBox1.TabIndex = 6;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Thông tin thuốc";
             // 
-            // label2
+            // textBox5
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(3, 371);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(81, 19);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "Tên thuốc";
+            this.textBox5.Location = new System.Drawing.Point(702, 78);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(74, 25);
+            this.textBox5.TabIndex = 19;
             // 
-            // roundedTextbox3
+            // textBox4
             // 
-            this.roundedTextbox3.BackColor = System.Drawing.SystemColors.Window;
-            this.roundedTextbox3.BorderColor1 = System.Drawing.Color.MediumSlateBlue;
-            this.roundedTextbox3.BorderSize1 = 1;
-            this.roundedTextbox3.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.roundedTextbox3.ForeColor = System.Drawing.Color.DimGray;
-            this.roundedTextbox3.IsPlaceholder = true;
-            this.roundedTextbox3.Location = new System.Drawing.Point(110, 396);
-            this.roundedTextbox3.Multiline = false;
-            this.roundedTextbox3.Name = "roundedTextbox3";
-            this.roundedTextbox3.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
-            this.roundedTextbox3.PasswordChar = false;
-            this.roundedTextbox3.PlaceholderColor1 = System.Drawing.Color.DimGray;
-            this.roundedTextbox3.PlaceholderText1 = "Viên";
-            this.roundedTextbox3.Size = new System.Drawing.Size(182, 34);
-            this.roundedTextbox3.TabIndex = 6;
-            this.roundedTextbox3.Texts = "";
-            this.roundedTextbox3.UnderLineStyle1 = true;
-            this.roundedTextbox3._TextChanged += new System.EventHandler(this.roundedTextbox3__TextChanged);
+            this.textBox4.Location = new System.Drawing.Point(554, 78);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(74, 25);
+            this.textBox4.TabIndex = 20;
             // 
-            // label3
+            // textBox1
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(3, 410);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(74, 19);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "Số lượng";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(3, 450);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(90, 19);
-            this.label4.TabIndex = 7;
-            this.label4.Text = "Liều lượng";
-            this.label4.Click += new System.EventHandler(this.label3_Click);
+            this.textBox1.Location = new System.Drawing.Point(406, 79);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(74, 25);
+            this.textBox1.TabIndex = 21;
             // 
             // Add_
             // 
@@ -254,89 +227,142 @@
             this.Add_.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold);
             this.Add_.HoverButtonColor = System.Drawing.Color.CornflowerBlue;
             this.Add_.Icon = null;
-            this.Add_.Location = new System.Drawing.Point(275, 476);
+            this.Add_.Location = new System.Drawing.Point(751, 125);
             this.Add_.Name = "Add_";
             this.Add_.Size = new System.Drawing.Size(141, 35);
-            this.Add_.TabIndex = 8;
+            this.Add_.TabIndex = 18;
             this.Add_.Text = "Add_Btn";
             this.Add_.TextColor = System.Drawing.Color.White;
             this.Add_.UseVisualStyleBackColor = true;
-            // 
-            // label5
-            // 
-            this.label5.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(40, 476);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(90, 19);
-            this.label5.TabIndex = 7;
-            this.label5.Text = "Sáng";
-            this.label5.Click += new System.EventHandler(this.label3_Click);
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(40, 511);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(53, 19);
-            this.label6.TabIndex = 7;
-            this.label6.Text = "Chiều";
-            this.label6.Click += new System.EventHandler(this.label3_Click);
+            this.Add_.Click += new System.EventHandler(this.Add__Click);
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(40, 545);
+            this.label7.Location = new System.Drawing.Point(651, 82);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(34, 19);
-            this.label7.TabIndex = 7;
+            this.label7.TabIndex = 12;
             this.label7.Text = "Tối";
-            this.label7.Click += new System.EventHandler(this.label3_Click);
             // 
-            // textBox1
+            // label6
             // 
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Location = new System.Drawing.Point(110, 476);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 15);
-            this.textBox1.TabIndex = 9;
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(495, 82);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(53, 19);
+            this.label6.TabIndex = 13;
+            this.label6.Text = "Chiều";
             // 
-            // textBox2
+            // label5
             // 
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Location = new System.Drawing.Point(110, 508);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 15);
-            this.textBox2.TabIndex = 9;
+            this.label5.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(357, 79);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(90, 19);
+            this.label5.TabIndex = 14;
+            this.label5.Text = "Sáng";
             // 
-            // textBox3
+            // label4
             // 
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox3.Location = new System.Drawing.Point(110, 542);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 15);
-            this.textBox3.TabIndex = 9;
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(306, 40);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(90, 19);
+            this.label4.TabIndex = 15;
+            this.label4.Text = "Liều lượng";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(0, 79);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(74, 19);
+            this.label3.TabIndex = 16;
+            this.label3.Text = "Số lượng";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(0, 40);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(81, 19);
+            this.label2.TabIndex = 17;
+            this.label2.Text = "Tên thuốc";
+            // 
+            // roundedTextbox3
+            // 
+            this.roundedTextbox3.BackColor = System.Drawing.SystemColors.Window;
+            this.roundedTextbox3.BorderColor1 = System.Drawing.Color.MediumSlateBlue;
+            this.roundedTextbox3.BorderSize1 = 1;
+            this.roundedTextbox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            this.roundedTextbox3.ForeColor = System.Drawing.Color.DimGray;
+            this.roundedTextbox3.IsPlaceholder = false;
+            this.roundedTextbox3.Location = new System.Drawing.Point(107, 65);
+            this.roundedTextbox3.Multiline = false;
+            this.roundedTextbox3.Name = "roundedTextbox3";
+            this.roundedTextbox3.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
+            this.roundedTextbox3.PasswordChar = false;
+            this.roundedTextbox3.PlaceholderColor1 = System.Drawing.Color.White;
+            this.roundedTextbox3.PlaceholderText1 = "";
+            this.roundedTextbox3.Size = new System.Drawing.Size(182, 33);
+            this.roundedTextbox3.TabIndex = 10;
+            this.roundedTextbox3.Texts = "";
+            this.roundedTextbox3.UnderLineStyle1 = true;
+            // 
+            // roundedTextbox2
+            // 
+            this.roundedTextbox2.BackColor = System.Drawing.SystemColors.Window;
+            this.roundedTextbox2.BorderColor1 = System.Drawing.Color.MediumSlateBlue;
+            this.roundedTextbox2.BorderSize1 = 1;
+            this.roundedTextbox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            this.roundedTextbox2.ForeColor = System.Drawing.Color.DimGray;
+            this.roundedTextbox2.IsPlaceholder = false;
+            this.roundedTextbox2.Location = new System.Drawing.Point(107, 26);
+            this.roundedTextbox2.Multiline = false;
+            this.roundedTextbox2.Name = "roundedTextbox2";
+            this.roundedTextbox2.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
+            this.roundedTextbox2.PasswordChar = false;
+            this.roundedTextbox2.PlaceholderColor1 = System.Drawing.Color.White;
+            this.roundedTextbox2.PlaceholderText1 = "";
+            this.roundedTextbox2.Size = new System.Drawing.Size(182, 33);
+            this.roundedTextbox2.TabIndex = 11;
+            this.roundedTextbox2.Texts = "";
+            this.roundedTextbox2.UnderLineStyle1 = true;
+            // 
+            // roundedButton1
+            // 
+            this.roundedButton1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(40)))), ((int)(((byte)(81)))));
+            this.roundedButton1.BorderRadius = 20;
+            this.roundedButton1.ButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(40)))), ((int)(((byte)(81)))));
+            this.roundedButton1.ButtonText = "Lập hóa đơn";
+            this.roundedButton1.FlatAppearance.BorderSize = 0;
+            this.roundedButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.roundedButton1.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold);
+            this.roundedButton1.HoverButtonColor = System.Drawing.Color.CornflowerBlue;
+            this.roundedButton1.Icon = null;
+            this.roundedButton1.Location = new System.Drawing.Point(364, 547);
+            this.roundedButton1.Name = "roundedButton1";
+            this.roundedButton1.Size = new System.Drawing.Size(141, 35);
+            this.roundedButton1.TabIndex = 18;
+            this.roundedButton1.Text = "Add_Btn";
+            this.roundedButton1.TextColor = System.Drawing.Color.White;
+            this.roundedButton1.UseVisualStyleBackColor = true;
+            this.roundedButton1.Click += new System.EventHandler(this.Add__Click);
             // 
             // MedicalFormcs
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.Add_);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.roundedTextbox3);
-            this.Controls.Add(this.roundedTextbox2);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.dataGridView2);
             this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.roundedButton1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.roundedTextbox1);
             this.Name = "MedicalFormcs";
@@ -344,6 +370,8 @@
             this.Load += new System.EventHandler(this.MedicalFormcs_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -359,17 +387,19 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column_Name1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column_sl;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column_ll;
-        private UserCtrl_Custom.RoundedTextbox roundedTextbox2;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBox1;
+        private UserCtrl_Custom.RoundedButton Add_;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private UserCtrl_Custom.RoundedTextbox roundedTextbox3;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private UserCtrl_Custom.RoundedButton Add_;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private UserCtrl_Custom.RoundedTextbox roundedTextbox2;
+        private UserCtrl_Custom.RoundedButton roundedButton1;
     }
 }

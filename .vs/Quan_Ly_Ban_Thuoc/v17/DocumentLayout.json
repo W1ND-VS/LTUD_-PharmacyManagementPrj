@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\CTU\\L\u00E2p tr\u00ECnh \u1EE9ng d\u1EE5ng\\BaoCao\\Quan_Ly_Ban_Thuoc\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{294D6F23-5E2E-487B-B85A-4C0A33331FE2}|Quan_Ly_Ban_Thuoc\\Quan_Ly_Ban_Thuoc.csproj|d:\\ctu\\l\u00E2p tr\u00ECnh \u1EE9ng d\u1EE5ng\\baocao\\quan_ly_ban_thuoc\\quan_ly_ban_thuoc\\form_qlnv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{294D6F23-5E2E-487B-B85A-4C0A33331FE2}|Quan_Ly_Ban_Thuoc\\Quan_Ly_Ban_Thuoc.csproj|solutionrelative:quan_ly_ban_thuoc\\form_qlnv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form_QLNV.cs [Design]",
+              "DocumentMoniker": "D:\\CTU\\L\u00E2p tr\u00ECnh \u1EE9ng d\u1EE5ng\\BaoCao\\Quan_Ly_Ban_Thuoc\\Quan_Ly_Ban_Thuoc\\Form_QLNV.cs",
+              "RelativeDocumentMoniker": "Quan_Ly_Ban_Thuoc\\Form_QLNV.cs",
+              "ToolTip": "D:\\CTU\\L\u00E2p tr\u00ECnh \u1EE9ng d\u1EE5ng\\BaoCao\\Quan_Ly_Ban_Thuoc\\Quan_Ly_Ban_Thuoc\\Form_QLNV.cs [Design]",
+              "RelativeToolTip": "Quan_Ly_Ban_Thuoc\\Form_QLNV.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T12:29:46.378Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
